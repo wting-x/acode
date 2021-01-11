@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>js编写位置</title>
+		
+		<!--可以将js代码编写到script标签中，见02.html-->
+		
+		<!--可以将js代码编写到外部js文件中，然后通过script标签的src属性进行引用-->
+		<!--script标签用来引入外部文件时，就不能用于编写js代码，即使写入代码也会被浏览器忽略-->
+		<!--注意js文件的地址的表述（绝对地址与相对地址）-->
+		<script src="script1.js"></script>
+		
+	</head>
+	
+	<body>
+	
+		<!--可以将js代码编写到标签的onclick属性中，点击时才会执行-->
+		<button onclick="alert('讨厌，点我干嘛~~');">点击这里</button>
+		
+		<!--换行-->	<br>
+		
+		<!--注意封号 ; 结尾-->
+		
+		<!--可以将js代码编写到超链接的href属性中，点击时会执行-->
+		<a href="javascript:alert('抱抱你~');">点我点我</a>
+		<a href="javascript:;">点我点我</a>	<!--点击超链接无反应-->
+		
+		<!--虽然可以写到标签的属性中，但属于结构与行为耦合，不方便维护，不推荐使用-->
+		
+	</body>
+</html>
