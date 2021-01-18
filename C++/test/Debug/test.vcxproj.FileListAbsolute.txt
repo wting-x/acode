@@ -1,0 +1,2 @@
+D:\acode\C++\test\Debug\test.exe
+D:\acode\C++\test\Debug\test.pdb
